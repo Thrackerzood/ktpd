@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">  
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="li_header"><a href="#">Главная</a></li>
+                <li class="li_header"><a href="#">Покупки</a></li>
+                <li class="li_header"><a href="#">Предложения</a></li>
+                <li class="li_header"><a href="#">Личный кабинет</a></li>
+                <li class="li_header"><a href="#log_in">Вход / регистрация</a></li>
+            </ul>
+            <section class="wave">
+                <section class="sub_wave"></section>
+            </section>
+        </nav>
+    </header>
+    <li class="organizer"><a href="#organizers">Записная книга</a></li>
+        <section id="organizers" class="organizer_info">
+
+            <section class="organizers_">
+                <section class="organizer_text">
+                </section>
+                <a href="#"class="organizer_close">x</a>
+                <textarea class="textarea_organizer" placeholder="запись"></textarea>
+                <p class="save_textarea_organizer">сохранить</p>
+                <p class="delete_textarea_organizer">удалить</p>
+                <p class="textarea_organizer_info">Показать историю</p>
+            </section>
+        </section>
+    <form method="GET" action="phpSearch.php" class="search">
+        <input type="search" name="search" class="input">
+        <input type="submit" name="sub" id="searchInput" class="searchInput">
+    </form>
+    <section class="section_enter_1" id="log_in">
+        <section class="sub-section_enter_1">
+            <a href="#" class="x">x</a>          
+<!-- создать вход для сайта -->
+            <form action="registration.php" method="POST">
+                <a href="#log_in" class="log_in" id="log_in">Войти</a>
+                <a href="#registration" class="registration">Регистрация</a>
+                <section class="section-clip"></section>
+                <input class="login" placeholder="login" type="text" name="login" required>
+                <input class="password_1" placeholder="password" type="password1" name="password" required>
+                <input type="submit" class="go" value="Отправить">
+            </form>
+        </section>
+    </section>
+
+    <section class="section_enter_2" id="registration">
+        <section class="sub-section_enter_2">
+            <a href="#" class="x">x</a>
+<!--регистрация-->
+            <form action="registration.php" method="POST">
+                <a href="#log_in" class="log_in" id="log_in">Войти</a>
+                <a href="#registration" class="registration">Регистрация</a>
+                <section class="section-clip"></section>
+                <input class="login_1" placeholder="login" type="text" name="login" required>
+                <input class="mail_1" placeholder="@mail" type="email" name="mail" required>
+                <input class="password_3" placeholder="password" type="password" name="password1" required>
+                <input class="password_4" placeholder="password" type="password" name="password2" required>
+                <input type="submit" class="go" value="Отправить">
+                <input type="checkbox" class="checkbox"> 
+                <p class="checkbox_">я не робот</p>
+            </form>
+        </section>
+    </section>
+<section class="section_clip-path">
+    <section class="section_clip-path_info">
+        <section class="section_clip-path_info_1">
+            <section class="sub_section_clip-path_info_1"><a href="#">Список товаров</a></section>
+        </section>
+        <section class="section_clip-path_info_2">
+            <section class="sub_section_clip-path_info_2"><a href="#">Акции</a></section>
+        </section>
+        <section class="section_clip-path_info_3">
+            <section class="sub_section_clip-path_info_3"><a href="#">Возростные</a></section>
+        </section>
+        <section class="section_clip-path_info_4">
+            <section class="sub_section_clip-path_info_4"><a href="#">Природные</a></section>
+        </section>
+    </section>
+</section>
+<section class="section_animation">
+    <section class="sub-section_animation_1"></section>
+    <section class="sub-section_animation_2"><section class="sub-sub-section_animation_2"></section></section>
+    <section class="shadow"></section>
+    <section class="sub-section_animation_3"></section>
+</section>
+<section class="section_content"> 
+</section>
+<section class="textarea">
+    <input type="button" class="prev" value="предыдущий">
+    <input type="button" class="save" value="сохранить">
+    <input type="button" class="next" value="следующий">
+    <p class="comments">ОСТАВИТЬ КОММЕНТАРИЙ</p>
+<textarea class="sub-textarea" maxlength="256" placeholder="максимальная длина 256 символов"></textarea>
+</section>
+<section class="section_comments">
+</section>
+<section class="button">Загрузить еще</section>
+<footer class="footer">
+        <ul class="footer_Info">
+           <li class="footerInfo">О компании</li>
+           <li class="footerInfo">О нашем сервисе</li>
+           <li class="footerInfo">Лицензия и реквизиты</li>
+           <li class="footerInfo">Лекарства в регионах</li>
+        </ul>
+        <ul class="footer_Info">
+           <li class="footerHelp">Часто задаваемые вопросы</li>
+           <li class="footerHelp">Как сделать заказ</li>
+           <li class="footerHelp">Правила доставки</li>
+           <li class="footerHelp">Обратная связь</li>
+        </ul>
+        <ul class="footer_Info">
+           <li class="promotions">Акции и распродажи</li>
+           <li class="promotions">акции и предложения</li>
+           <li class="promotions">программы лояльности</li>
+        </ul>
+        <ul class="footer_Info">
+           <li class="law">Юридическая информация</li>
+           <li class="law">политика обработки персональных данных</li>
+           <li class="law">пользовательское соглашение</li>
+        </ul>
+</footer>
+</body>
+</html>
